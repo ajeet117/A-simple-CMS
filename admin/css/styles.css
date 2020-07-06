@@ -1,0 +1,159 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #122236;
+	font-family: 'Inconsolata', monospace;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+	margin-bottom: 15px;
+}
+.container
+{
+	width: 1180px;
+	margin: auto;
+}
+header
+{
+	position: relative;
+}
+.nav-bar
+{
+	color:white;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	max-height: 50vh;
+}
+ul
+{
+	list-style-type: none;
+}
+a
+{
+	text-decoration: none;
+}
+hr 
+{
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+/*header css*/
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.profile
+{
+	font-size: 20px;
+}
+.fa
+{
+	padding-left: 5px;
+}
+
+.clear
+{
+	clear: both;
+}
+.sidebar	
+{
+	width: 220px;
+	position: fixed;
+	top: 60px;
+	left: 15px;
+}
+.sidebar ul li a 
+{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: white;
+}
+.sidebar ul li
+{
+	padding: 10px;
+	text-align: center;
+}
+.content 
+{
+    background-color:white;
+	color:black;
+    width: 1100px;
+    margin-top: 20px;
+    padding: 15px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.content h2
+{
+	position: relative;
+}
+
+.form
+{
+	width: 50%;
+}
+.form-group
+{
+	margin-bottom: 15px;
+	display: block;
+}
+.form-control
+{
+	display: block;
+	line-height: 1.5rem;
+	padding: 5px;
+	width: 100%;
+}
+.btn
+{
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 10px;
+}
+.btn-color
+{
+	background: #284e7a;
+}
+label
+{
+	font-size: 24px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+td
+{
+	padding: 10px;
+	font-size: 16px;
+	border:1px solid black;
+	text-align: center;
+}
+table,th	
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	font-size: 18px;
+	padding: 10px;
+}
+table
+{
+	width: 100%;
+}
+
